@@ -12,7 +12,15 @@ public class Year
 
     public bool IsLeap()
     {
-        if (Value % 4 == 0) return true;
+        if (Value % 4 == 0)
+        {
+            if (Value % 100 == 0)
+            {
+                return false;
+            }
+            return true;
+        }
+
         return false;
     }
 }
