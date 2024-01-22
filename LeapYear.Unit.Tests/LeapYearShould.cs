@@ -11,18 +11,6 @@ namespace LeapYear.Unit.Tests;
 public class LeapYearShould
 {
     [Fact]
-    public void CanInstiantiate()
-    {
-        new Year();
-    }
-
-    [Fact]
-    public void CanReceivedYearInConstructor()
-    {
-        new Year(1999);
-    }
-
-    [Fact]
     public void CanCallIsLeapMethod()
     {
         var sut = new Year(1999);

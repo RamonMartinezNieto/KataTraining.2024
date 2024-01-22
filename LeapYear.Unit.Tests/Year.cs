@@ -2,15 +2,12 @@
 {
     internal class Year
     {
-        private int v;
+        public int Value { get; }
 
-        public Year()
-        {
-        }
 
-        public Year(int v)
+        public Year(int year)
         {
-            this.v = v;
+            this.Value = year;
         }
 
         internal void IsLeap()
