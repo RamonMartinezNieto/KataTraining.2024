@@ -16,6 +16,10 @@ public class Year
         {
             if (Value % 100 == 0)
             {
+                if (Value % 400 == 0)
+                {
+                    return true;
+                }
                 return false;
             }
             return true;
