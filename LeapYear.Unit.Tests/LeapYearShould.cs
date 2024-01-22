@@ -12,13 +12,6 @@ namespace LeapYear.Unit.Tests;
 public class LeapYearShould
 {
     [Fact]
-    public void CanCallIsLeapMethod()
-    {
-        var sut = new Year(1999);
-        sut.IsLeap();
-    }
-
-    [Fact]
     public void ReturnFalse_WhenIsNotDivisibleBy4()
     {
         var sut = new Year(1997);
