@@ -1,14 +1,8 @@
 ﻿namespace LeapYear;
 
-public class Year
+public class Year(int year)
 {
-    public int Value { get; }
-
-
-    public Year(int year)
-    {
-        Value = year;
-    }
+    public int Value { get; } = year;
 
     public bool IsLeap()
     {
