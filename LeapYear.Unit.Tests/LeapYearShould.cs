@@ -34,4 +34,12 @@ public class LeapYearShould
         var result = sut.IsLeap();
         result.Should().BeFalse();
     }
+
+    [Fact]
+    public void ReturnTrue_WhenIsDivisibleBy4_And_IsDivisibleBy100()
+    {
+        var sut = new Year(2000);
+        var result = sut.IsLeap();
+        result.Should().BeTrue();
+    }
 }
