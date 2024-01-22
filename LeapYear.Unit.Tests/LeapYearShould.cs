@@ -1,3 +1,4 @@
+using FluentAssertions;
 using Xunit;
 
 namespace LeapYear.Unit.Tests;
@@ -15,5 +16,13 @@ public class LeapYearShould
     {
         var sut = new Year(1999);
         sut.IsLeap();
+    }
+
+    [Fact]
+    public void ReturnFalse_WhenIsNotDivisibleBy4()
+    {
+        var sut = new Year(1997);
+        var result = sut.IsLeap();
+        result.Should().BeFalse();
     }
 }

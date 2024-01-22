@@ -10,7 +10,8 @@ public class Year
         Value = year;
     }
 
-    public void IsLeap()
+    public bool IsLeap()
     {
+        return false;
     }
 }
