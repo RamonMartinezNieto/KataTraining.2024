@@ -1,12 +1,6 @@
-﻿using System;
+﻿namespace Rmn.KataTraining;
 
-namespace Rmn.KataTraining
+internal class Program
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello test!");
-        }
-    }
+    public static void Main(string[] args) { }
 }
