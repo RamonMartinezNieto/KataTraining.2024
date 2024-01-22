@@ -15,4 +15,10 @@ public class LeapYearShould
     {
         new Year();
     }
+
+    [Fact]
+    public void CanReceivedYearInConstructor()
+    {
+        new Year(1999);
+    }
 }
