@@ -21,4 +21,11 @@ public class LeapYearShould
     {
         new Year(1999);
     }
+
+    [Fact]
+    public void CanCallIsLeapMethod()
+    {
+        var sut = new Year(1999);
+        sut.IsLeap();
+    }
 }
