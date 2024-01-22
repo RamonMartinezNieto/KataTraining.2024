@@ -12,5 +12,9 @@
         {
             this.v = v;
         }
+
+        internal void IsLeap()
+        {
+        }
     }
 }
