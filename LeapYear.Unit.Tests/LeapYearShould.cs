@@ -1,7 +1,7 @@
 using FluentAssertions;
 using Xunit;
 
-namespace LeapYear.Unit.Tests;
+namespace LeapYear.Unit.Tests._1;
 
 //Kata LeapYears
 //User Story: 
