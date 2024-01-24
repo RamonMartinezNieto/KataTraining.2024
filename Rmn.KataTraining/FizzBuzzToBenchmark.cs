@@ -5,7 +5,7 @@ namespace Rmn.KataTraining;
 
 public class FizzBuzzToBenchmark
 {
-    private static int ITEMS = 100;
+    private static int ITEMS = 100000;
 
     [Benchmark]
     public void FizzBuzzWithVariablesBool()
