@@ -39,7 +39,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzz.2", "FizzBuzz.2\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYear.Unit.Tests.4", "LeapYear.Unit.Tests.4\LeapYear.Unit.Tests.4.csproj", "{2FB679B1-1C1F-40D2-AD15-486D5B2ACED4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaptYear.4", "LeaptYear.4\LeaptYear.4.csproj", "{EB96540D-8695-4EA0-896F-0E1916BCEE84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYear.4", "LeaptYear.4\LeapYear.4.csproj", "{EB96540D-8695-4EA0-896F-0E1916BCEE84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
